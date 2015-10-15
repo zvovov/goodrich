@@ -1,5 +1,0 @@
-print("Enter a")
-a = input()
-print("Enter b")
-b = input()
-print("Sum is", a+b)
