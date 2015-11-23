@@ -19,6 +19,8 @@ def v_or_c(s):
     :param s:
     :return:
     """
+    if len(s) <= 0:
+        return 0
     if len(s) == 1:
         if isvowel(s[0]):
             return 1
